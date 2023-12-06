@@ -32,8 +32,14 @@ body {
     box-sizing: border-box;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .slider {
-    width: 300px;
+    width: 350px;
     text-align: center;
     overflow: hidden;
 }
@@ -100,7 +106,7 @@ body {
 .author-info a {
     color: white;
 }
-img {
+#slide {
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -140,9 +146,6 @@ html, body {
     overflow: hidden;
 }
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: linear-gradient(to bottom, #74ABE2, #5563DE);
     font-family: 'Ropa Sans', sans-serif;
 }
