@@ -38,6 +38,14 @@ body {
     justify-content: center;
 }
 
+.listing-description {
+    width: 500px;
+}
+
+.card-bottom-links-wrapper {
+    background-color:bisque;
+}
+
 .slider {
     width: 350px;
     text-align: center;
