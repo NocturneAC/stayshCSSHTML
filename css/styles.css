@@ -19,13 +19,28 @@ body {
     margin: 0;
 }
 
+/* documentation for radial gradient backgrounds: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient */
+
 .navbar-wrapper {
     height: 8em;
-    background-color: orange;
+    background: radial-gradient(#bc6c25,#dda15e);
     margin-top: -1em;
     padding-top: 1em;
-    /* display: flex;
-    flex-direction: row; */
+}
+
+.links {
+    width: 100%;
+}
+
+.links a {
+    color: #22223b;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3em 2em;
 }
 
 #hero {
@@ -56,12 +71,18 @@ body {
 .listing-description {
     width: 500px;
     margin: 2em;
-    color: lightgrey;
+    color: #f0e6ef;
     font-size: larger;
 }
 
 .card-bottom-links-wrapper {
-    background-color:bisque;
+    height: 50px;
+    width: 800px;
+}
+
+#card-bottom-links {
+    display: flex;
+    justify-content: space-between;
 }
 
 .slider {
@@ -139,6 +160,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 13px;
 }
 
 .slider > a {
@@ -157,7 +179,7 @@ body {
     top: 1px;
 }
 .slider > a:focus {
-    background: #000;
+    background: #dda15e;
 }
 
   /* Don't need button navigation */
@@ -177,15 +199,14 @@ body {
 }
 
 .footer-wrapper {
+    background-image: url("../img/br_paper.png");
     height: 100px;
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-.footer-col-left {
-    width: 40%;
-}
-.footer-col-right {
-    width: 60%;
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5em 0em;
 }
