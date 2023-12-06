@@ -32,10 +32,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 0 8em;
 }
 
 * {
     box-sizing: border-box;
+}
+
+.card-top-text-wrapper {
+    display: flex;
 }
 
 .card-wrapper {
@@ -44,8 +49,15 @@ body {
     justify-content: center;
 }
 
+.slider-wrapper {
+    display: flex;
+}
+
 .listing-description {
     width: 500px;
+    margin: 2em;
+    color: lightgrey;
+    font-size: larger;
 }
 
 .card-bottom-links-wrapper {
@@ -53,7 +65,7 @@ body {
 }
 
 .slider {
-    width: 350px;
+    width: 300px;
     text-align: center;
     overflow: hidden;
 }
