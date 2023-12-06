@@ -32,7 +32,7 @@ body {
     box-sizing: border-box;
 }
 
-.main {
+.card-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,11 +141,15 @@ body {
     }
 }
 
-html, body {
+/* html, body {
     height: 100%;
     overflow: hidden;
-}
+} */
 body {
     background: linear-gradient(to bottom, #74ABE2, #5563DE);
     font-family: 'Ropa Sans', sans-serif;
+}
+
+.footer-wrapper {
+    height: 100px;
 }
