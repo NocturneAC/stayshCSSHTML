@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Tutorial 4
+    Case Problem 4
+    
+    Browyer Realty Listing 2048
+    Author: 
+    Date:   
+
+    Filename: br_listing2048.html
+
+
+Be sure to include basic page elements such as header, navigation, main content and footer.
+Be sure images are in an img folder. Use relative links to access them.
+    Complete
+Place the style sheet is in the css folder. Link it properly to your index.html file.
+    Complete
+Include your name in comments in the CSS file.
+Validate the web pages and the CSS file.
+
+
+more details...
+
+1. put your name and date in the following files: br_listing2048_txt.html and br_styles_txt.css
+2. content for listings are sourced from the .txt file. use # as placeholder for all hrefs.
+3. redundant direction, ignore
+4. page design is open to interpretation, with conditions:
+    features needed-
+    -background img
+    -border around page element
+    -border radius
+    -box shadow
+    -text shadow
+    -background featuring a linear gradient
+    -background featuring a radial gradiant (there's only one page so i'll do my best with all this background direction lmao)
+    -css asks: use the transform and filter properties
+5. include commments (duh)
+6. make it responsive
+
+
+   -->   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Browyer Realty</title>
+   <link href="./br_reset.css" rel="stylesheet" />
+   <link href="./br_styles_txt.css" rel="stylesheet" />  
+   <script src="./br_listing2048.js" defer></script>
+ 
+</head>
+
+<body>  
+
+
+<!-- header && navbar section -->
+
+<div class="information-section">
+    <div>
+        <h1>Listing Description</h1>
+    </div>
+    <div class="info-box">
+        <ul>
+            <li>Address:</li>
+            <li>Listing 2048</li>
+            <li>414 Mandel Road</li>
+            <li>Owatonna, MN  55060</li>
+        </ul>
+    </div>
+    <div class="info-box">
+        <ul>
+            <li>List Price: $412,800</li>
+            <li>Square Feet: 3,300</li>
+            <li>Bedrooms: 4</li>
+            <li>Baths: 2-1/2</li>
+        </ul>       
+    </div>
+</div>
+
+<!-- image grid -->
+<div class="carousel-container">
+    <div class="carousel-wrapper">
+        <div class="carousel-track">
+            <img class="carousel-image active" src="br_photo1.png" alt="Front View">
+            <img class="carousel-image" src="br_photo2.png" alt="Rear View">
+            <img class="carousel-image" src="br_photo3.png" alt="Side View">
+            <img class="carousel-image" src="br_photo4.png" alt="Dining room">
+            <img class="carousel-image" src="br_photo5.png" alt="Kitchen">
+            <img class="carousel-image" src="br_photo6.png" alt="Living room">
+            <img class="carousel-image" src="br_photo7.png" alt="Bedroom 1">
+            <img class="carousel-image" src="br_photo8.png" alt="Bedroom 2">
+            <img class="carousel-image" src="br_photo9.png" alt="Bedroom 3">
+        </div>
+        <div class="carousel-prev">&lt;</div>
+        <div class="carousel-next">&gt;</div>
+    </div>
+</div>
+
+
+<!-- description section -->
+
+
+</body>
+
+</html>
